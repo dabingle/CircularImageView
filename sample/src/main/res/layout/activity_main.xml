@@ -97,6 +97,19 @@
             app:ci_placeholderTextColor="@android:color/darker_gray"
             app:ci_placeholderTextSize="55sp" />
 
+        <com.subinkrishna.circularimageview.demo.view.AvatarView
+            android:id="@+id/civ2"
+            android:layout_width="@dimen/civ_size"
+            android:layout_height="@dimen/civ_size"
+            android:layout_centerInParent="true"
+            android:src="@drawable/placeholder"
+            app:ci_borderColor="#FFF"
+            app:ci_borderWidth="0dp"
+            app:ci_placeholderBackgroundColor="#EEE"
+            app:ci_placeholderText="cv"
+            app:ci_placeholderTextColor="@android:color/darker_gray"
+            app:ci_placeholderTextSize="55sp"/>
+
     </RelativeLayout>
 
     <ScrollView
